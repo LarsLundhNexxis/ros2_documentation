@@ -245,6 +245,8 @@ Since you'll be changing the standard string msg to a numerical one, the output 
 
 **Publisher**
 
+Modify the file in path: cpp_pubsub/src/publisher_member_function.cpp
+
 .. tabs::
 
   .. group-tab:: C++
@@ -335,6 +337,8 @@ Since you'll be changing the standard string msg to a numerical one, the output 
 
 **Subscriber**
 
+Modify the file in path: cpp_pubsub/src/subscriber_member_function.cpp
+
 .. tabs::
 
   .. group-tab:: C++
@@ -417,7 +421,7 @@ Since you'll be changing the standard string msg to a numerical one, the output 
 
 **CMakeLists.txt**
 
-Add the following lines (C++ only):
+Add the following lines to cpp_pubsub/CMakeLists.txt (C++ only):
 
 .. code-block:: cmake
 
@@ -443,7 +447,7 @@ Add the following lines (C++ only):
 
 **package.xml**
 
-Add the following line:
+Add the following line to cpp_pubsub/package.xml:
 
 .. tabs::
 
