@@ -245,6 +245,8 @@ Since you'll be changing the standard string msg to a numerical one, the output 
 
 **Publisher**
 
+in src folder create file "publisher_member_function.cpp" and add the following code:
+
 .. tabs::
 
   .. group-tab:: C++
@@ -334,6 +336,8 @@ Since you'll be changing the standard string msg to a numerical one, the output 
 
 
 **Subscriber**
+
+in src folder create file "subscriber_member_function.cpp" and add the following code:
 
 .. tabs::
 
